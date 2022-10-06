@@ -1,1 +1,68 @@
+#container1{
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: 1FR max-content 1fr;
+    width: 100%;
+    margin:3em;
+    justify-items: center;
+}
 
+#container{
+    display: block;
+    grid-row: 1;
+    grid-column: 2;
+    background-color: white;
+    padding: 5.34em 6.67em;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.294) 10px 10px 10px;
+}
+
+#title1{
+    font-size: 2rem;
+}
+
+#info1{
+    font-size: 1.3333333333333rem;
+    margin: 20px;
+}
+
+button{
+    background-color: #0170b9;
+    color: white;
+    border: white solid;
+    font-size: 15px;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+#btn_1{
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+}
+
+#btn_2{
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+}
+
+#info2{
+    margin: 20px;
+}
+
+#info3{
+    margin: 20px;
+}
+
+ul,li{
+    margin: 3px;
+    margin-left: 40px;
+}
+
+#remerciement{
+    margin: 20px;
+}

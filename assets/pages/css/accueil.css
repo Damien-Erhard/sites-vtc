@@ -2,7 +2,6 @@
     display: grid;
     grid-template-rows: max-content;
     grid-template-columns: 1FR max-content 1fr;
-    width: 100%;
     margin:3em;
     justify-items: center;
 }

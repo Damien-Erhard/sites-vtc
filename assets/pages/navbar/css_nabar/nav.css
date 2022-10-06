@@ -11,14 +11,12 @@
 
 #box1 {
     display: flex;
-    width: 100%;
     grid-row: 1;
     grid-column: 2;
     justify-content: space-between;
     font-size: x-large;
     text-align: center;
     align-items: center;
-    margin-bottom: 20px;
     margin: 2em;
 }
 
